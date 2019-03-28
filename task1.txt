@@ -123,7 +123,8 @@ g
 3	d
 4	f
 5	g
-]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ [K]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ grep
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ 
+[K]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ grep
 Usage: grep [OPTION]... PATTERN [FILE]...
 Try 'grep --help' for more information.
 ]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ grep --help
