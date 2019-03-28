@@ -1,0 +1,104 @@
+Script started on Thursday 28 March 2019 11:29:29 PM IST
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ ssh cs17d55@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d55@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 11:34:09 2019 from 192.168.0.186
+
+$ ls
+apple  examples.desktop  lab
+$ mkdir klm
+$ exit
+Connection to 192.168.0.30 closed.
+
+
+
+
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ scp -r task2 cs17d55@192.168.0.30:~/klm[1P
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d55@192.168.0.30's password: 
+
+gpa.txt                                         0%    0     0.0KB/s   --:-- ETA
+gpa.txt                                       100%  118KB 117.7KB/s   00:00    
+
+script file                                     0%    0     0.0KB/s   --:-- ETA
+script file                                   100%   15KB  15.4KB/s   00:00    
+
+compute_gpa.c                                   0%    0     0.0KB/s   --:-- ETA
+compute_gpa.c                                 100% 1364     1.3KB/s   00:00    
+
+task gpa.sh                                     0%    0     0.0KB/s   --:-- ETA
+task gpa.sh                                   100% 1931     1.9KB/s   00:00    
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ ssh cs17d55@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d55@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 11:36:10 2019 from 192.168.0.186
+
+$ ls
+apple  examples.desktop  klm  lab
+$ cd klm
+$ ls
+task2
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ rsync -a task5 cs17d55@192.168.0.30:~/klm
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d55@192.168.0.30's password: 
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ ssh cs17d55@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d55@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 11:41:51 2019 from 192.168.0.186
+
+$ ls
+apple  examples.desktop  klm  lab
+$ cd klm
+$ ls
+task2  task5
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4d2@cec-H110M-S2: ~[01;32ms4d2@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 28 March 2019 11:38:24 PM IST
