@@ -1,0 +1,155 @@
+Script started on Thursday 28 March 2019 10:34:22 PM IST
+]0;s4d2@cec-H110M-S2: ~/new[01;32ms4d2@cec-H110M-S2[00m:[01;34m~/new[00m$ sftp cs17d552192.168.0.30[1P192.168.0.30@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d55@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> cd ..
+sftp> ls
+ask       cec       cs17d00   cs17d01   cs17d02   cs17d03   cs17d04   cs17d05   
+cs17d06   cs17d07   cs17d08   cs17d09   cs17d10   cs17d11   cs17d12   cs17d13   
+cs17d14   cs17d15   cs17d16   cs17d17   cs17d18   cs17d19   cs17d20   cs17d21   
+cs17d22   cs17d23   cs17d24   cs17d25   cs17d26   cs17d27   cs17d28   cs17d29   
+cs17d30   cs17d31   cs17d32   cs17d33   cs17d34   cs17d35   cs17d36   cs17d37   
+cs17d38   cs17d39   cs17d40   cs17d41   cs17d42   cs17d43   cs17d44   cs17d45   
+cs17d46   cs17d47   cs17d48   cs17d49   cs17d50   cs17d51   cs17d52   cs17d53   
+cs17d54   cs17d55   cs17d56   cs17d57   cs17d58   cs17d59   cs17d60   cs17d61   
+cs17d62   hari      ieeecec   
+sftp> cd cs17d55
+
+
+sftp> put -r home/s4d2/lab[1@/h
+Uploading /home/s4d2/lab/ to /home/cs17d55/lab
+Entering /home/s4d2/lab/
+
+/home/s4d2/lab/command2.txt                     0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/command2.txt                   100%  120KB 120.2KB/s   00:00    
+
+/home/s4d2/lab/ad.txt                           0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/ad.txt                         100%   16     0.0KB/s   00:00    
+
+/home/s4d2/lab/12.txt                           0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/12.txt                         100%   10     0.0KB/s   00:00    
+
+/home/s4d2/lab/result_one_per_line              0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/result_one_per_line            100%   12KB  12.5KB/s   00:00    
+
+/home/s4d2/lab/task5                          100%    0     0.0KB/s   00:00    
+
+/home/s4d2/lab/result.txt                       0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/result.txt                     100%   42KB  41.6KB/s   00:00    
+
+/home/s4d2/lab/123.txt                          0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/123.txt                        100%    8     0.0KB/s   00:00    
+
+/home/s4d2/lab/result_CS_Only.txt               0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/result_CS_Only.txt             100%   13KB  12.7KB/s   00:00    
+
+/home/s4d2/lab/name.txt                         0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/name.txt                       100% 3181     3.1KB/s   00:00    
+
+/home/s4d2/lab/command.txt                      0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/command.txt                    100%   12KB  12.1KB/s   00:00    
+
+/home/s4d2/lab/c.txt                            0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/c.txt                          100%    6     0.0KB/s   00:00    
+
+/home/s4d2/lab/result.pdf                       0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/result.pdf                     100%   28KB  28.3KB/s   00:00    
+
+/home/s4d2/lab/s4d_student_registor_number_an   0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/s4d_student_registor_number_an 100% 1478     1.4KB/s   00:00    
+Entering /home/s4d2/lab/cgpa
+
+/home/s4d2/lab/cgpa/s1_s2_with_reg.txt          0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/cgpa/s1_s2_with_reg.txt        100%   24KB  23.7KB/s   00:00    
+
+/home/s4d2/lab/cgpa/cgpa.txt                  100%    0     0.0KB/s   00:00    
+
+/home/s4d2/lab/scriptfile                       0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/scriptfile                     100%  196     0.2KB/s   00:00    
+Entering /home/s4d2/lab/student_details
+
+/home/s4d2/lab/student_details/s4d_student_de   0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/student_details/s4d_student_de 100% 3181     3.1KB/s   00:00    
+
+/home/s4d2/lab/student_details/s4d_student_re 100%    0     0.0KB/s   00:00    
+Entering /home/s4d2/lab/s2
+
+/home/s4d2/lab/s2/result.txt                    0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/s2/result.txt                  100%   42KB  41.6KB/s   00:00    
+
+/home/s4d2/lab/s2/result_CS_Only.txt            0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/s2/result_CS_Only.txt          100%   13KB  12.7KB/s   00:00    
+
+/home/s4d2/lab/s2/result.pdf                    0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/s2/result.pdf                  100%   28KB  28.3KB/s   00:00    
+
+/home/s4d2/lab/s2/result_one_per_line.txt       0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/s2/result_one_per_line.txt     100%   13KB  12.7KB/s   00:00    
+
+/home/s4d2/lab/s2/s2_result.txt                 0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/s2/s2_result.txt               100%   12     0.0KB/s   00:00    
+
+/home/s4d2/lab/s2/result_no_newline.txt         0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/s2/result_no_newline.txt       100%   13KB  12.7KB/s   00:00    
+
+/home/s4d2/lab/result_one_per_line.txt          0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/result_one_per_line.txt        100%   13KB  12.7KB/s   00:00    
+
+/home/s4d2/lab/task gpa.sh                      0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/task gpa.sh                    100% 1931     1.9KB/s   00:00    
+
+/home/s4d2/lab/d.txt                            0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/d.txt                          100%    8     0.0KB/s   00:00    
+
+/home/s4d2/lab/result_no_newline                0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/result_no_newline              100%   12KB  12.5KB/s   00:00    
+
+/home/s4d2/lab/abc.txt                          0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/abc.txt                        100%   12     0.0KB/s   00:00    
+
+/home/s4d2/lab/9.txt                            0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/9.txt                          100%   13     0.0KB/s   00:00    
+Entering /home/s4d2/lab/s1
+
+/home/s4d2/lab/s1/result.txt                    0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/s1/result.txt                  100%   36KB  36.5KB/s   00:00    
+
+/home/s4d2/lab/s1/result_CS_Only.txt            0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/s1/result_CS_Only.txt          100%   12KB  12.5KB/s   00:00    
+
+/home/s4d2/lab/s1/s1_result.txt                 0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/s1/s1_result.txt               100%   12     0.0KB/s   00:00    
+
+/home/s4d2/lab/s1/result.pdf                    0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/s1/result.pdf                  100%   24KB  23.8KB/s   00:00    
+
+/home/s4d2/lab/s1/result_one_per_line.txt       0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/s1/result_one_per_line.txt     100%   12KB  12.5KB/s   00:00    
+
+/home/s4d2/lab/s1/result_no_newline.txt         0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/s1/result_no_newline.txt       100%   12KB  12.5KB/s   00:00    
+
+/home/s4d2/lab/n.txt                            0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/n.txt                          100%   39     0.0KB/s   00:00    
+
+/home/s4d2/lab/result_no_newline.txt            0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/result_no_newline.txt          100%   13KB  12.7KB/s   00:00    
+
+/home/s4d2/lab/m.txt                            0%    0     0.0KB/s   --:-- ETA
+/home/s4d2/lab/m.txt                          100%   35     0.0KB/s   00:00    
+sftp> get[K[K[Kcd lab
+sftp> get abc.txt
+Fetching /home/cs17d55/lab/abc.txt to abc.txt
+
+/home/cs17d55/lab/abc.txt                       0%    0     0.0KB/s   --:-- ETA
+/home/cs17d55/lab/abc.txt                     100%   12     0.0KB/s   00:00    
+sftp> exit
+]0;s4d2@cec-H110M-S2: ~/new[01;32ms4d2@cec-H110M-S2[00m:[01;34m~/new[00m$ exit
+exit
+
+Script done on Thursday 28 March 2019 10:37:56 PM IST
