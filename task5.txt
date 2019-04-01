@@ -1,0 +1,41 @@
+Script started on Monday 01 April 2019 09:48:38 PM IST
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ ifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:19:af  
+          inet addr:192.168.0.186  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::9903:5272:2359:a048/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:35138 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16011 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:21408103 (21.4 MB)  TX bytes:2275474 (2.2 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:492 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:492 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:34544 (34.5 KB)  TX bytes:34544 (34.5 KB)
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ ifconfig enp1s0
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:19:af  
+          inet addr:192.168.0.186  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::9903:5272:2359:a048/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:35295 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16011 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:21420586 (21.4 MB)  TX bytes:2275474 (2.2 MB)
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ ifconfig enp1s0 up
+SIOCSIFFLAGS: Operation not permitted
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo ifconfig enp1s0 up
+[sudo] password for cec: 
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo ifconfig enp1s0 up[K[Kdown
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo ifconfig enp1s0 down[K[K[K[Kup
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo ifconfig enp1s0 192.168.0.186
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 01 April 2019 09:51:06 PM IST
