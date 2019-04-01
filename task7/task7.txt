@@ -1,0 +1,42 @@
+Script started on Monday 01 April 2019 11:42:21 PM IST
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt install nginx
+[sudo] password for cec: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+nginx is already the newest version (1.10.3-0ubuntu0.16.04.3).
+The following packages were automatically installed and are no longer required:
+  libopenal-data libopenal1 libphysfs1 libsdl2-2.0-0 libsdl2-image-2.0-0
+  libsndio6.1 linux-headers-4.10.0-28 linux-headers-4.10.0-28-generic
+  linux-image-4.10.0-28-generic linux-image-extra-4.10.0-28-generic
+  linux-signed-image-4.10.0-28-generic supertux-data
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo gedit /etc/nginx/sites-enabled/default [1P[1P[1@u[C[1@o
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 01 April 2019 11:44:24 PM IST
